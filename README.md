@@ -1,5 +1,5 @@
 <h1 align="center">Stability in Truck Driving Behaviour: A Geo-Specific Analysis</h1>
-=================================================
+
 
 <!-- [![License](https://img.shields.io/badge/License-CC0-lightgray.svg?style=flat-square)](https://creativecommons.org/publicdomain/zero/1.0/)
 [![Latest release](https://img.shields.io/github/v/release/mhucka/readmine.svg?style=flat-square&color=b44e88)](https://github.com/mhucka/readmine/releases)
@@ -9,19 +9,18 @@
 Table of contents
 -----------------
 
-- [Stability in Truck Driving Behaviour: A Geo-Specific Analysis](#stability-in-truck-driving-behaviour-a-geo-specific-analysis)
-  - [Table of contents](#table-of-contents)
-  - [Introduction](#introduction)
-  - [Installation](#installation)
-  - [Dataset Description](#dataset-description)
-  - [Code Description](#code-description)
-  - [Getting help](#getting-help)
+- [Table of contents](#table-of-contents)
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Dataset Description](#dataset-description)
+- [Code Description](#code-description)
+- [Getting help](#getting-help)
 
 
 Introduction
 ------------
-This repository is part of the Msc thesis project, which can be found in the [TU Delft repository](https://repository.tudelft.nl/islandora/search/?collection=education).
-As part of the project geo-specific analysis conducted for Dutch Field Operational Test(FOT), known as the Anti-ongevalsystemen [AOS-FOT](https://wiki.fot-net.eu/index.php/AOS). In the current study, an analysis of driving data from 1,727 trucks recorded over one year between September 2008 – May 2009 (across Europe). The aim is to explore stability in truck driving behaviour with a focus on time and location (urban areas and motorways).
+This repository is part of the MSc thesis project, which can be found in the [TU Delft repository](https://repository.tudelft.nl/islandora/search/?collection=education).
+As part of the project geo-specific analysis conducted for the Dutch Field Operational Test(FOT), known as the Anti-ongevalsystemen [AOS-FOT](https://wiki.fot-net.eu/index.php/AOS). In the current study, an analysis of driving data from 1,727 trucks was recorded over one year between September 2008 – May 2009 (across Europe). The aim is to explore stability in truck driving behaviour, focusing on time and location (urban areas and motorways).
 
 
 Installation
@@ -43,7 +42,7 @@ Dataset Description
 -----
 The dataset used in this study was recorded as part of a large-scale FOT aimed at assessing accident prevention systems by the Dutch Ministry of Infrastructure and Water Management. Connekt conducted a large-scale field operational test for trucks with active driver assistance systems, also known as accident prevention systems (APS). Five different accident prevention systems and a registration system were tested on Dutch highways over eight months. The test’s purpose was to understand better the extent to which accident prevention systems can contribute to traffic safety and traffic flow on the Dutch road network. Until now, the contribution of these systems has only been examined to a limited extent [1].
 
-The dataset consists of two types of data - Orderly Use data (Trip data), and Main AOS Data (AOS Events data).
+The dataset consists of two types of data - Orderly Use data (Trip data) and Main AOS Data (AOS Events data).
 
 1. TRIP: TRIP folder consists of SUMMARY and DETAIL files. The detailed folder contains the orderly use data described below. Features were recorded every 2 km.
 
@@ -80,9 +79,7 @@ The figure below visualizes the different events recorded in the Netherlands.
 
 Code Description
 -----
-
-
-In order to explore stability correlation analysis has been used to examine if there exists a linear relationship between variables. To further understand how stable different ranges are for a particular metric, clustering analysis has been used. The spatial stability analysis has been split based on the environment i.e. urban areas and motorways.
+In order to explore stability, correlation analysis has been used to examine if a linear relationship exists between variables. Clustering analysis has been used to understand further how stable; different ranges are for a particular metric. The spatial stability analysis has been split based on the environment, i.e. urban areas and motorways.
 
 All the jupyter notebooks can be found inside [tdstability](tdstability/) folder.
 
