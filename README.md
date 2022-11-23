@@ -88,11 +88,11 @@ All the jupyter notebooks can be found inside [tdstability](truck-driver-profile
 
 | File             | Description                                                  |
 | ---------------- | ------------------------------------------------------------ |
-| [eda](truck-driver-profile/tdstability/eda.ipynb) | Used to perform exploratory data analysis for both Trip and AOS data. It also contains temporal stability analysis.|
-| [extract_trips_two_locs_motorway](truck-driver-profile/tdstability/extract_trips_two_locs_motorway.ipynb)  | Code to extract trips between two locations.|
-| [urban_area_clustering](truck-driver-profile/tdstability/urban_area_clustering.ipynb)   | Correlation and clustering analysis for urban areas|
-| [motorway_clusternig](truck-driver-profile/tdstability/motorway_clusternig.ipynb)   |Correlation and clustering analysis for motorways|
-| [discussion](truck-driver-profile/tdstability/discussion.ipynb)       | Exploring effect of vehicle characteristics on stability|
+| [eda](tdstability/eda.ipynb) | Used to perform exploratory data analysis for both Trip and AOS data. It also contains temporal stability analysis.|
+| [extract_trips_two_locs_motorway](tdstability/extract_trips_two_locs_motorway.ipynb)  | Code to extract trips between two locations.|
+| [urban_area_clustering](tdstability/urban_area_clustering.ipynb)   | Correlation and clustering analysis for urban areas|
+| [motorway_clusternig](tdstability/motorway_clusternig.ipynb)   |Correlation and clustering analysis for motorways|
+| [discussion](tdstability/discussion.ipynb)       | Exploring effect of vehicle characteristics on stability|
 
 
 Getting help
