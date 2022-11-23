@@ -9,13 +9,13 @@ Stability in Truck Driving Behaviour: A Geo-Specific Analysis
 Table of contents
 -----------------
 
+
 - [Stability in Truck Driving Behaviour: A Geo-Specific Analysis](#stability-in-truck-driving-behaviour-a-geo-specific-analysis)
   - [Table of contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Installation](#installation)
   - [Dataset Description](#dataset-description)
-    - [Code Description](#code-description)
-  - [Known issues and limitations](#known-issues-and-limitations)
+  - [Code Description](#code-description)
   - [Getting help](#getting-help)
 
 
@@ -62,7 +62,9 @@ The figure below visualizes the different events recorded in the Netherlands.
 
 <p align="center"><img width="80%" src="images/out5.png"></p>
 
-### Code Description
+Code Description
+-----
+
 
 In order to explore stability correlation analysis has been used to examine if there exists a linear relationship between variables. To further understand how stable different ranges are for a particular metric, clustering analysis has been used. The spatial stability analysis has been split based on the environment i.e. urban areas and motorways.
 
@@ -75,13 +77,6 @@ All the jupyter notebooks can be found inside [tdstability](truck-driver-profile
 | [urban_area_clustering](truck-driver-profile/tdstability/urban_area_clustering.ipynb)   | Correlation and clustering analysis for urban areas|
 | [motorway_clusternig](truck-driver-profile/tdstability/motorway_clusternig.ipynb)   |Correlation and clustering analysis for motorways|
 | [discussion](truck-driver-profile/tdstability/discussion.ipynb)       | Exploring effect of vehicle characteristics on stability|
-
-
-
-Known issues and limitations
-----------------------------
-
-In this section, summarize any notable issues and/or limitations of your software.  If none are known yet, this section can be omitted (and don't forget to remove the corresponding entry in the [Table of Contents](#table-of-contents) too); alternatively, you can leave this section in and write something along the lines of "none are known at this time".
 
 
 Getting help
