@@ -1,4 +1,4 @@
-Stability in Truck Driving Behaviour: A Geo-Specific Analysis
+<h1 align="center">Stability in Truck Driving Behaviour: A Geo-Specific Analysis</h1>
 =================================================
 
 <!-- [![License](https://img.shields.io/badge/License-CC0-lightgray.svg?style=flat-square)](https://creativecommons.org/publicdomain/zero/1.0/)
@@ -84,7 +84,7 @@ Code Description
 
 In order to explore stability correlation analysis has been used to examine if there exists a linear relationship between variables. To further understand how stable different ranges are for a particular metric, clustering analysis has been used. The spatial stability analysis has been split based on the environment i.e. urban areas and motorways.
 
-All the jupyter notebooks can be found inside [tdstability](truck-driver-profile/tdstability/) folder.
+All the jupyter notebooks can be found inside [tdstability](tdstability/) folder.
 
 | File             | Description                                                  |
 | ---------------- | ------------------------------------------------------------ |
