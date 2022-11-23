@@ -18,7 +18,7 @@ Table of contents
 
 Introduction
 ------------
-This repository is part of the MSc thesis project, which can be found in the [TU Delft repository](https://repository.tudelft.nl/islandora/search/?collection=education).
+This repository is part of an MSc thesis project, which can be found in the [TU Delft repository](https://repository.tudelft.nl/islandora/search/?collection=education).
 As part of the project geo-specific analysis conducted for the Dutch Field Operational Test(FOT), known as the Anti-ongevalsystemen [AOS-FOT](https://wiki.fot-net.eu/index.php/AOS). In the current study, an analysis of driving data from 1,727 trucks was recorded over one year between September 2008 – May 2009 (across Europe). The aim is to explore stability in truck driving behaviour, focusing on time and location (urban areas and motorways).
 
 
