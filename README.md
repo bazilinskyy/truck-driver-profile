@@ -9,7 +9,6 @@ Stability in Truck Driving Behaviour: A Geo-Specific Analysis
 Table of contents
 -----------------
 
-
 - [Stability in Truck Driving Behaviour: A Geo-Specific Analysis](#stability-in-truck-driving-behaviour-a-geo-specific-analysis)
   - [Table of contents](#table-of-contents)
   - [Introduction](#introduction)
@@ -46,13 +45,30 @@ The dataset used in this study was recorded as part of a large-scale FOT aimed a
 
 The dataset consists of two types of data - Orderly Use data (Trip data), and Main AOS Data (AOS Events data).
 
-1. TRIP: TRIP folder consists of SUMMARY and DETAIL files. The detailed folder contains the orderly use data described which contains the Journey Data: Features recorded every 2 km, which include number plate, latitude, longitude, point speed, timestamp, distance travelled, and time elapsed. Spatial information is provided by the speed limit of the road, the number of lanes,area, road type, class and form.
+1. TRIP: TRIP folder consists of SUMMARY and DETAIL files. The detailed folder contains the orderly use data described below. Features were recorded every 2 km.
+
+| Feature       | Description                                                  |
+| ---------------- | ------------------------------------------------------------ |
+| Numberplate      | License plate number used to identify vehicles|
+| Point_date-stamp | Date per point|
+|Point_time-stamp  | Time per point|
+| Latitude         |GPS: 3 digits to denote the integer part + 6 decimal digits|
+|Longitude         | GPS: 3 digits to denote the integer part + 6 decimal digits|
+|Meters_travelled  |m: Meters travelled from previous point|
+|Time_elapsed      |sec: Seconds elapsed from previous point|
+|Point_speed|km/h|
+|Road_type|According to TeleAtlas: -3=not available, 0=urban, 1=motorway, 2=extra-urban, 3=other|
+|Speed_restriction|According to TeleAtlas, km/h|
+|Admin_area|According to TeleAtlas, standard name for Order 8 area|
+|TNO_Time-stamp|Control variable|
+
+
    
 Fig. below depicts trips recorded across Europe during the field operational test. The data was recorded for over 96 × 106 kilometres.
 
 <p align="center"><img width="80%" src="images/trip_detail.png"></p>
 
-1. Main AOS Data: Recorded using Mobile Eye. Contrary to Trip data, this data produced a warning when an event is triggered (the driver receives a real-time alert). The events include:
+2. Main AOS Data: Recorded using Mobile Eye. Contrary to Trip data, this data produced a warning when an event is triggered (the driver receives a real-time alert). The events include:
    1. Braking Events
    2. Headway Warnings: (Level I/II/III-HW)
    3. Right and Left Indicator: (R/L-I)
