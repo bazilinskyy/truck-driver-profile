@@ -9,6 +9,7 @@
 Table of contents
 -----------------
 
+- [Table of contents](#table-of-contents)
 - [Introduction](#introduction)
 - [Installation](#installation)
 - [Dataset Description](#dataset-description)
@@ -64,7 +65,7 @@ The dataset consists of two types of data - Orderly Use data (Trip data) and Mai
    
 Fig. below depicts trips recorded across Europe during the field operational test. The data was recorded for over 96 $\times$ 106 kilometres.
 
-<p align="center"><img width="80%" src="images/out1.png"></p>
+<p align="center"><img width="50%" src="images/out1.png"></p>
 
 1. Main AOS Data: Recorded using Mobile Eye. Contrary to Trip data, this data produced a warning when an event is triggered (the driver receives a real-time alert). The events include:
    1. Braking Events
@@ -74,7 +75,7 @@ Fig. below depicts trips recorded across Europe during the field operational tes
 
 The figure below visualizes the different events recorded in the Netherlands.
 
-<p align="center"><img width="80%" src="images/out5.png"></p>
+<p align="center"><img width="50%" src="images/out5.png"></p>
 
 Code Description
 -----
