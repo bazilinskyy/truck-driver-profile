@@ -65,7 +65,7 @@ The dataset consists of two types of data - Orderly Use data (Trip data) and Mai
    
 Fig. below depicts trips recorded across Europe during the field operational test. The data was recorded for over 96 × 106 kilometres.
 
-<p align="center"><img width="80%" src="images/trip_detail.png"></p>
+<p align="center"><img width="80%" src="images/out1.png"></p>
 
 2. Main AOS Data: Recorded using Mobile Eye. Contrary to Trip data, this data produced a warning when an event is triggered (the driver receives a real-time alert). The events include:
    1. Braking Events
