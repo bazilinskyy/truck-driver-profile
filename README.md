@@ -80,7 +80,7 @@ Code Description
 -----
 In order to explore stability, correlation analysis has been used to examine if a linear relationship exists between variables. Clustering analysis has been used to understand further how stable; different ranges are for a particular metric. The spatial stability analysis has been split based on the environment, i.e. urban areas and motorways.
 
-All the jupyter notebooks can be found inside [tdstability](tdstability/) folder.
+All the jupyter notebooks can be found in [tdstability](tdstability/) folder.
 
 | File             | Description                                                  |
 | ---------------- | ------------------------------------------------------------ |
