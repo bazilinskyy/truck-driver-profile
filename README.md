@@ -9,6 +9,7 @@
 Table of contents
 -----------------
 
+- [Table of contents](#table-of-contents)
 - [Introduction](#introduction)
 - [Installation](#installation)
 - [Dataset Description](#dataset-description)
@@ -18,7 +19,7 @@ Table of contents
 
 Introduction
 ------------
-This repository is part of an MSc thesis project, which can be found in the [TU Delft repository](https://repository.tudelft.nl/islandora/search/?collection=education).
+This repository is part of an MSc thesis project, which can be found in the [TU Delft repository](https://repository.tudelft.nl/islandora/object/uuid%3Aa2858c59-7b39-4cda-87cc-ece2757aaae8?collection=education).
 As part of the project geo-specific analysis has been conducted for a Dutch Field Operational Test(FOT), known as the Anti-ongevalsystemen [AOS-FOT](https://wiki.fot-net.eu/index.php/AOS). In the current study, an analysis of driving data from 1,727 trucks was recorded over one year between September 2008 – May 2009 (across Europe). The aim is to explore stability in truck driving behaviour, focusing on time and location (urban areas and motorways).
 
 
@@ -97,4 +98,4 @@ Getting help
 The dataset used in this study is not publicly available. You can contact [Dr. Joost de Winter](https://www.tudelft.nl/staff/j.c.f.dewinter/?cHash=d01a3e86b28de77014b7c235534246c9) or [Dr. Dimitra Dodou](https://www.tudelft.nl/staff/d.dodou/?cHash=86e7804ff8c203cd17c148eddf8a72ac) for further details.
 
 
-[1] Aos for net wiki,” Apr 2015. [Online]. Available: https://wiki.fot-net.eu/index.php/AOS
+[1] AOS FOT (Wiki of Field Operational Tests)” Apr 2015. [Online]. Available: https://wiki.fot-net.eu/index.php/AOS
